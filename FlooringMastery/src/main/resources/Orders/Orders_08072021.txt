@@ -1,0 +1,2 @@
+OrderNumber,OrderCreationDate,OrderDate,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total,isActive
+9,06-26-2020,08-07-2021,Richard Ambrose,CA,25.00,Tile,150,3.50,4.15,525.00,622.50,286.88,1434.38,true

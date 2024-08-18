@@ -1,0 +1,83 @@
+Release Note - Floor Mastery Version 1.0
+
+The Floor Mastery App was created as part of the Week 4 Final Assessment. It has the functionality available to read and write flooring orders, as well as collating orders that are currently active on the system.
+
+
+How to use App:
+1. Load app 
+	- The app will load the start-up messages welcoming the user utilising the flooring mastery app by TSG Corp.
+
+2. Input option choice - The app will then list the options available to the user so either:
+	(a) Display Orders
+	(b) Add an order
+	(c) Edit an order
+	(d) Remove an order
+	(e) Export All Data
+	(f) Quit
+
+Based on the option selected the following will occur
+
+(a) Display Orders - this choice will be displayed to the user
+	i. The user would need to input the date of the order delivery they would like to view - this could be an order in the past or future.
+		-> If the date is not entered in the correct format as dictated by the app the user is asked to try again.
+	ii. Once the date has been entered, the app will either:
+		-> return the orders for that date that is stored in memory
+		-> throw an error, if the date is not stored in the system an error will be thrown indicating orders on that date do not exist (returns to the menu)
+	iii. Once completed it will return to the input option choice (2)
+
+
+(b) Add an order - this choice will be displayed to the user
+	i. The user would need to input the date of the order delivery they would like to view - this must be an order in the future but within the next 5 years.
+		-> If the date is not entered in the correct format as dictated by the app the user is asked to try again.
+	ii. The user would then need to input their name - so the first name and the last name.
+	iii. The user would then need to input their choice for State from the options selected - which are displayed from memory of the state taxes and their rate.
+	iv. The user would then need to input their choice for product type from the options selected - which are displayed from storage the products available for purchase.
+	v. The user would then input the area they would like covered for the flooring with a minimum input of 100 sq ft. - displaying an error if the input is not within the range requested, and ask the user to input again
+	vi. The order details would then be compiled including the order number and calculations for the order so tax, material costs, labour and the total cost. Then it will be displayed to the user.
+	vii. The user would then be asked of they would like to proceed with that order, based on the input of the user the following will occur
+		-> User input = 'y' -- The order is processed and a message of confirmation is displayed.
+		-> User input = 'n' -- The order is cancelled and a message of cancellation is displayed.
+	viii. Once completed it will return to the input option choice (2).
+
+
+(c) Edit an order - this choice will be displayed to the user
+	i. The user would need to input the date of the order delivery they would like to view - this could be an order in the past or future.
+		-> If the date is not entered in the correct format as dictated by the app the user is asked to try again.
+	ii. The user would then input the order number.
+	iii. The app would then check if the order exists
+		-> An error will occur if the order file does not exist using the delivery date (returns to the menu)
+		-> An error will occur if the order number does not exist within the order file (returns to the menu)
+	iv. The user would then need to input their name and it will also display the previous customer name
+		-> If the user doesn't input anything it will assume the old customer name
+	v. The user would then need to input their choice for State from the options selected and will display the previous state name - which are displayed from memory of the state taxes and their rate.
+	vi. The user would then need to input their choice for product type from the options selected and will display the previous product type - which are displayed from storage the products available for purchase.
+	vii. The user would then input the area they would like covered for the flooring with a minimum input of 100 sq ft. and will display the previous area - displaying an error if the input is not within the range requested.
+	viii. The order details would then be compiled including the order number and calculations for the order so tax, material costs, labour and the total cost. Then it will be displayed to the user.
+	ix. The user would then confirm if they would like to proceed with the alterations made.
+		-> User input = 'y' -- The order is processed and a message of confirmation is displayed.
+		-> User input = 'n' -- The order is cancelled and a message of cancellation is displayed.
+	x. Once completed it will return to the input option choice (2).
+
+
+(d) Remove an order - this choice will be displayed to the user
+	i. The user would need to input the date of the order delivery they would like to view - this could be an order in the past or future.
+		-> If the date is not entered in the correct format as dictated by the app the user is asked to try again.
+	ii. The user would then input the order number.
+	iii. The app would then check if the order exists
+		-> An error will occur if the order file does not exist using the delivery date (returns to the menu)
+		-> An error will occur if the order number does not exist within the order file. (returns to the menu)
+		-> An error will occur if the order exists but is inactive (already removed). (returns to the menu)
+	iv. The app will then display the active order that is to be removed.
+	v. If the order is active the user, will decide if they would like to deactivate the order
+		-> User input = 'y' -- The order is processed as inactive and a message of confirmation is displayed.
+		-> User input = 'n' -- The order is cancelled and a message of cancellation is displayed.
+	vi. Once completed it will return to the input option choice (2).
+
+
+(e) Export All Data - this choice will be displayed to the user
+	i. The app will export all the active orders from the order files and add them to the backup orders file.
+	ii. The app would then display the active order, order number, customer name and delivery date.
+	iii. Once completed it will return to the input option choice (2).
+
+
+(f) Quit - if the user selects this option the application will print out an exit message and quit the app.

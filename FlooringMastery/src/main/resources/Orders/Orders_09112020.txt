@@ -1,0 +1,2 @@
+OrderNumber,OrderCreationDate,OrderDate,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total,isActive
+7,06-25-2020,09-11-2020,Trina Tryme,KY,6.00,Tile,140,3.50,4.15,490.00,581.00,64.26,1135.26,true

@@ -1,0 +1,2 @@
+OrderNumber,OrderCreationDate,OrderDate,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total,isActive
+8,06-25-2020,07-20-2020,Ursula James,WA,9.25,Carpet,400,2.25,2.10,900.00,840.00,156.60,1896.60,true

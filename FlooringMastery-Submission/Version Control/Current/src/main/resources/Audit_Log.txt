@@ -1,0 +1,16 @@
+CURRENT TOTAL ORDERS:::3
+2020-06-25 --> ORDER NUMBER: 4, order updated.
+CURRENT TOTAL ORDERS:::4
+2020-06-25 --> ORDER NUMBER: 5, order updated.
+CURRENT TOTAL ORDERS:::5
+2020-06-25 --> ORDER NUMBER: 6, order updated.
+CURRENT TOTAL ORDERS:::6
+2020-06-25 --> ORDER NUMBER: 7, order updated.
+CURRENT TOTAL ORDERS:::7
+2020-06-25 --> ORDER NUMBER: 8, order update.
+CURRENT TOTAL ORDERS:::8
+2020-06-25 --> ORDER NUMBER: 4, order update.
+2020-06-25 --> ORDER NUMBER: 6, order cancelled.
+2020-06-26 --> ORDER NUMBER: 9, new order recorded today.
+CURRENT TOTAL ORDERS:::9
+2020-06-26 --> ORDER NUMBER: 9, order update.

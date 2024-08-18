@@ -1,0 +1,8 @@
+OrderNumber,OrderCreationDate,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total,OrderDate
+1,11-12-2019,Ada Lovelace,CA,25.00,Tile,249.00,3.50,4.15,871.50,1033.35,476.21,2381.06,06-01-2021
+3,05-05-2020,Albert Einstein,KY,6.00,Carpet,217.00,2.25,2.10,488.25,455.70,56.64,1000.59,06-02-2021
+4,06-25-2020,Jack Trowler,WA,9.25,Tile,150,3.50,4.15,525.00,622.50,103.28,1250.78,07-28-2020
+5,06-25-2020,Josh Hosepipe,TX,4.45,Laminate,200,1.75,2.10,350.00,420.00,30.80,800.80,06-01-2021
+7,06-25-2020,Trina Tryme,KY,6.00,Tile,140,3.50,4.15,490.00,581.00,64.26,1135.26,09-11-2020
+8,06-25-2020,Ursula James,WA,9.25,Carpet,400,2.25,2.10,900.00,840.00,156.60,1896.60,07-20-2020
+9,06-26-2020,Richard Ambrose,CA,25.00,Tile,150,3.50,4.15,525.00,622.50,286.88,1434.38,08-07-2021

@@ -1,0 +1,33 @@
+Prerequisites:
+- You will need an Java Runtime Environment (JRE) of version 11 or higher
+ 
+
+Confirm your java version by doing the following
+1. Open a CMD window
+2. Type "java -version" and press enter
+3. If version is less that v11, then install AdoptOpenJDK
+4. If version is 11 or more, then continue 
+ 
+ 
+How to download the new version of Flooring Mastery
+
+1) Open Explorer
+2) Go to C:\Program Files
+3) Right-Click -> New Folder
+4) Name the folder "FlooringMastery"
+5) Extract the zip file to FlooringMastery.
+
+
+How to load app:
+
+- Open a CMD window
+- From there navigate to the Flooring Mastery File  - so it should look something like this:
+	C:\User> cd Program Files\FlooringMastery\Version/ Control\Current
+
+- Click Enter
+- Then, type in the following "java -jar "
+- Then drag the newly downloaded jar file to the command line - so it should look something like this:
+
+		C:\User> java -jar FlooringMastery-1.0.jar
+
+- Click Enter, and the app should load in the command line.

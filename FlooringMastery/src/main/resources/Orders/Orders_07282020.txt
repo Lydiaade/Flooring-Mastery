@@ -1,0 +1,3 @@
+OrderNumber,OrderCreationDate,OrderDate,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total,isActive
+4,06-25-2020,07-28-2020,Jack Trowler,WA,9.25,Tile,150,3.50,4.15,525.00,622.50,103.28,1250.78,true
+6,06-25-2020,07-28-2020,Sarah Bottleup,KY,6.00,Tile,101,3.50,4.15,353.50,419.15,46.36,819.01,false
